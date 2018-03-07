@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="55.818473">
+    <testcase classname="to verify Login page scenarios." name="User Login with correct details" time="55.818473">
+        <system-out>
+            <![CDATA[Given launch "chrome" browser...............................................passed
+Then launch url "http://localhost/impression/"..............................passed
+And verify page by "url" with "http://localhost/impression/"................passed
+And verify page by "title" with "Impression Bridal".........................passed
+Then Close The Popup Window.................................................passed
+Then click on menu link on "Collections"....................................passed
+And verify page by "url" with "http://localhost/impression/impression/collection".passed
+Then MouseOver on menu "Collections"........................................passed
+Then Click on DropDown Menu Collection in "Wedding Gowns"...................passed
+Then Click on CollectionPanel Category Gowns "Collections"..................passed
+Then Select the checkbox type "Ashley & Justin Bride".......................passed
+Then Select the checkbox type "Victor Harper"...............................passed
+Then Click on CollectionPanel Category Gowns "Collections"..................passed
+And Click on CollectionPanel Category Gowns "Fabric"........................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
